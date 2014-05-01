@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "How to make a CI / CD pipeline succeed"
+date:   2014-05-01 10:15:00
+categories: jekyll update
+---
+
+
 How to make a CI / CD pipeline succeed
 
 
