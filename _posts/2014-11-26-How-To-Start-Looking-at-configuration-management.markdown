@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "How to start looking at configuration management"
+date:   2014-11-26 12:01:14
+categories: jekyll update
+---
+
 How to start looking at configuration management
 
 I wanted to take a few minutes to discuss how to get started with configuration management, and some thing’s to keep in mind when thinking about it. 
