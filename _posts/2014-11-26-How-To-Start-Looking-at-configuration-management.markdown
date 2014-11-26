@@ -13,11 +13,11 @@ First I wanted to clear up a few misconceptions. The term and practice of config
 
 Once the scope is defined, the next important step is choosing a tool. The big tools available are Ansible, Chef, Puppet and, SaltStack (I wont go into detail about them as there are plenty of websites that have done some comparisons). Each tool has similar end results so knowing what you want out of configuration management will assist in choosing the correct tool for you.  Some questions to ask are:
 ```
-*   How long will it take to get started on the tool?
-*   How easy is the tool to use?
-*   How easy is it to understand what the tool is doing?
-*   How does it scale (100 servers, 1,000 servers, 10,000 servers, etc.)?
-•   What is the community support?
+  *   How long will it take to get started on the tool?
+  *   How easy is the tool to use?
+  *   How easy is it to understand what the tool is doing?
+  *   How does it scale (100 servers, 1,000 servers, 10,000 servers, etc.)?
+  •   What is the community support?
 ```
 
 Up until now I have been generic in how to approach configuration management, and the tools, now I am going to list out things that are important to me. I am going to look at the stability of the tool, the common usages, involvement of the community, and finally how does it scale.
