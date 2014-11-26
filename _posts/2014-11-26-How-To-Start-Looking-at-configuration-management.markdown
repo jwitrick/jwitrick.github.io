@@ -36,6 +36,7 @@ For example:
   *   SaltStack – 7 minor release and many many bug fixes
 ```
 
+
 ##Documentation and usability:
  
 Next I look at how the documentation (or community) says the tool should be used. If I find there are a lot of differences between them, then there is more time required to train people and maintain a consistent implementation. For me personally I want a simple command that can be run to execute the configuration process. This allows for simpler integration with orchestration tools. 
