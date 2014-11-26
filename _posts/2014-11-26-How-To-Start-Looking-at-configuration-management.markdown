@@ -18,7 +18,7 @@ Once the scope is defined, the next important step is choosing a tool. The big t
   *   How easy is the tool to use?
   *   How easy is it to understand what the tool is doing?
   *   How does it scale (100 servers, 1,000 servers, 10,000 servers, etc.)?
-  •   What is the community support?
+  *   What is the community support?
 ```
 
 Up until now I have been generic in how to approach configuration management, and the tools, now I am going to list out things that are important to me. I am going to look at the stability of the tool, the common usages, involvement of the community, and finally how does it scale.
@@ -28,11 +28,12 @@ Up until now I have been generic in how to approach configuration management, an
 First the tool should be well documented and stable. I should not have to constantly wait for the next release of the software for a feature that the other tools have had built in for years. I should trust the tools and their release cycle to know they are not releasing major issues. 
 
 For example:
+
 ```
-•   Ansible – 3 minor releases and many bug fixes
-•   Chef – 8 minor version releases and a few bug fixes
-•   Puppet – 3 minor releases and a few bug fixes
-•   SaltStack – 7 minor release and many many bug fixes
+  *   Ansible – 3 minor releases and many bug fixes
+  *   Chef – 8 minor version releases and a few bug fixes
+  *   Puppet – 3 minor releases and a few bug fixes
+  *   SaltStack – 7 minor release and many many bug fixes
 ```
 
 ##Documentation and usability:
@@ -48,11 +49,12 @@ On the flip side tools like Ansible, and SaltStack have the ability to run parts
 Community involvement is an important step being able to use someone else’s code to do the same thing allows for less custom code that needs to be maintained, quicker deployment and release time, and generally better stability overall. If there is a large community that releases and maintains common code, it means that more people have invested time in this product, like its usages, and want to make it better. 
 
 For example:
+
 ```
-•   Ansible has over 1,500 roles
-•   Chef has 1, 800 cookbooks
-•   Puppet has almost 2,900 modules
-•   Salt has 150 community formulas
+  *   Ansible has over 1,500 roles
+  *   Chef has 1, 800 cookbooks
+  *   Puppet has almost 2,900 modules
+  *   Salt has 150 community formulas
 ```
 Which means that for ansible, chef or puppet for almost any piece of software I want to use there is a good possibility that someone has already created it. While salt is not yet up to that level.
 
@@ -61,9 +63,10 @@ Which means that for ansible, chef or puppet for almost any piece of software I 
 How does the tool scale? For me to answer that question I do research on who is actively using the tool. What is the size of there company? How many servers do they run? What do they have to say about the tool? These are some basic questions, but they generally give me faith in my decision. 
 
 For example:
+
 ```
-•  Facebook has publicly said it uses chef to manage 150,000 servers across the globe, 
-•  Shopzilla is running clusters in the thousands on puppet. 
+  *  Facebook has publicly said it uses chef to manage 150,000 servers across the globe, 
+  *  Shopzilla is running clusters in the thousands on puppet. 
 ```
 
 When looking at the scale of the companies using the tools it shows both how well it scales, and how dedicated these companies are to the tool.
