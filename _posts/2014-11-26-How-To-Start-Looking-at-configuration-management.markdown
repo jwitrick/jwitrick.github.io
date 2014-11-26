@@ -12,6 +12,7 @@ I wanted to take a few minutes to discuss how to get started with configuration 
 First I wanted to clear up a few misconceptions. The term and practice of configuration management does not mean less code; it does not mean less time spent maintaining it; and it does not mean its simple. The topic of configuration management should be approached like any other software development project. What does it solve? What does it need to do? Who are the consumers? These questions will help in selecting the tools used. For more specific information use the Wikipedia page (http://en.wikipedia.org/wiki/Configuration_management).
 
 Once the scope is defined, the next important step is choosing a tool. The big tools available are Ansible, Chef, Puppet and, SaltStack (I wont go into detail about them as there are plenty of websites that have done some comparisons). Each tool has similar end results so knowing what you want out of configuration management will assist in choosing the correct tool for you.  Some questions to ask are:
+
 ```
   *   How long will it take to get started on the tool?
   *   How easy is the tool to use?
